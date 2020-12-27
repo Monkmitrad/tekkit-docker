@@ -27,3 +27,7 @@ If you neither volume mount a custom world directory, nor mount the existing wor
 
 If you would like to save the world created by the server, ensure to run the container with the world directory saved to a named volume:
 `docker run -d -p 25565:25565 -p 25565:25565/udp -v tekkit-data:/minecraft/world cwadley/tekkit-docker:latest`
+
+## Note
+
+Due to an config error in the tekkit image you have to provide the corrected 'bspkrsCore.cgf' file for '/minecraft/config/bspkrsCore.cgf'
