@@ -30,4 +30,5 @@ If you would like to save the world created by the server, ensure to run the con
 
 ## Note
 
-Due to an config error in the tekkit image you have to provide the corrected 'bspkrsCore.cgf' file for '/minecraft/config/bspkrsCore.cgf'
+Due to an config error in the tekkit image you have to provide the corrected `spkrsCore.cgf` file for `minecraft/config/bspkrsCore.cgf`
+(I will change the Dockerfile)
